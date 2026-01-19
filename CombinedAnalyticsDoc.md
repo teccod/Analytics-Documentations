@@ -1,6 +1,6 @@
-DESCRIPTION TO ADD
+## Users Overall 
 
-## Users Overall
+This dashboard shows monthly new user activity. Monitoring is performed across all three Community portals.
 
 ### Overall Amounts
 
