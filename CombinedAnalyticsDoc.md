@@ -1,4 +1,4 @@
-## Users Overall 
+## Analytics Users Overview dashboard
 
 This dashboard shows monthly new user activity. Monitoring is performed across all three Community portals.
 
