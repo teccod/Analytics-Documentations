@@ -1,16 +1,20 @@
-## Analytics / Users / Overview.dashboard
+# Analytics / Users / Overview.dashboard
 
 This dashboard displays monthly newcomers activity. Monitoring is performed across all three community portals: Developer Community, Open Exchange, and Ideas Portal.
 
 This dashboard has group of filters:
-- Date of first registration: _The first ever user registration date on all three community portals._
-- Portals: _All three community portals._
-- User`s country: _The newcomer's country, as specified by the newcomer in the developer community or Open Exchange registration form (or taken from PEGA)_
-- User`s company
-- Last user active date
-- Last user login date
-- Communities
+- **Date of first registration**: _The first ever user registration date on all three community portals._
+- **Portals**: _All three community portals._
+- **User`s country**: _The newcomer's country, as specified by the newcomer in the developer community or Open Exchange registration form (or taken from PEGA)_
+- **User`s company**: _The newcomer's company, as specified by the newcomer in the developer community or Open Exchange registration form (or taken from PEGA)_
+- **Last user active date**: _The date of the newcomer's last activity on one of the three community portals._
+- **Last user login date**: _The last date a newcomer logged into the Developer Community or Open Exchange system._
+- **Communities**: _All 6 developer communities laguages._
 
+This dashboard has detailisation level for some widget.
+- **Detailed user-action listing**: _The list consists of 8 columns (User Name, Action Type, User First Registration Date, Action Date, Action Title, Action Link, Oex User Profile, Community User Profile). Each row represents _actions_ performed by the user, so a user may appear multiple times. The **Action Name** column depends on the action type and represents the name of the action result: application name, publication title, etc. Some actions, such as Community View or App download, have no visible results, so the action name may be "No Data"._
+
+## Widgets
 
 ### Overall Amounts
 
