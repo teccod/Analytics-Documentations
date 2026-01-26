@@ -14,6 +14,31 @@ This dashboard contains a group of filters.:
 This dashboard contains detailisation level for some widgets.
 - **Detailed user-action listing**: _The list consists of 8 columns (User Name, Action Type, User First Registration Date, Action Date, Action Title, Action Link, Oex User Profile, Community User Profile). Each row represents _actions_ performed by the user, so a user may appear multiple times. The **Action Name** column depends on the action type and represents the name of the action result: application name, publication title, etc. Some actions, such as Community View or App download, have no visible results, so the action name may be "No Data"._
 
+#### Measurable actions
+
+1. Community Comment
+2. Community View
+3. Submit an app (OEX)
+4. App Download (OEX)
+5. Bookmark an App (OEX)
+6. Submit an OEX Review
+7. Login into OEX
+8. View an App
+9. Community Post
+10. Submit an OEX Release
+11. Login into Community
+12. Comment an Idea
+13. Community Vote
+14. Participation in Contest
+15. Asking DC AI
+16. Vote for Idea
+17. Submit an Idea
+
+#### Key Time Dimensions
+
+User registration date is the first ever registration on the community portals (Developer Community, Open Exchange, Ideas Portal)
+Action creation date is the date the action was performed on the community portals (Developer Community, Open Exchange, Ideas Portal)
+
 ## Widgets
 
 ### Overall Amounts
@@ -34,7 +59,7 @@ _This histogram shows (for a specified period. current month by default) the tot
 
 ### Overall Activity 
 
-_This histogram displays (for a specified period. current month by default) the ratio of active newcomers to total newcomers as a percentage (Active newcomers %) and the ratio of newcomers who contributed to total newcomers (Contributors %)._ 
+_This histogram displays (for a specified period. current month by default) the ratio of active newcomers to total newcomers as a percentage (Active newcomers %) and the ratio of newcomers who contributed to total newcomers (Contributors %). Active necomers % calculates all actions available on the community. Contrubutors % exclude following actions: Community View, App Download, Login into OEX, Login into Community, Asking DC AI, View an App._ 
 
 #### Available Filters
 - Date of first registration
